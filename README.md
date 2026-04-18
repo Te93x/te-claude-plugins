@@ -24,6 +24,11 @@ A collection of custom plugins for Claude AI, designed to enhance productivity a
    /reload-plugins
    ```
 
+4. Disable the plugin if you want to use Claude during peak hours (reload required to apply changes):
+   ```
+   /plugin disable glm-peak-guard
+   ```
+
 ## 📦 Available Plugins
 
 ### [GLM Peak Guard](./plugins/glm-peak-guard/)

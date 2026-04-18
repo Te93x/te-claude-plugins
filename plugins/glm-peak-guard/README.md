@@ -27,6 +27,11 @@ A Claude plugin that automatically blocks usage during peak hours (06:00-10:00 U
    /reload-plugins
    ```
 
+4. Disable the plugin if you want to use Claude during peak hours (reload required to apply changes):
+   ```
+   /plugin disable glm-peak-guard
+   ```
+
 ## How It Works
 
 The plugin hooks into Claude's prompt submission process and checks the current UTC time. During peak hours (06:00-10:00 UTC), it displays a helpful message explaining the block and suggests waiting until off-peak hours.
