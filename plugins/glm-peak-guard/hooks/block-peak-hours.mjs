@@ -4,7 +4,7 @@ import { readFileSync } from "fs";
 
 /**
  * Peak hour blocker for z.ai
- * Blocks usage during peak hours (06:00–13:00 UTC) to save quota.
+ * Blocks usage during peak hours (06:00–10:00 UTC) to save quota.
  */
 
 const PEAK_START_UTC = 6;   // 06:00 UTC
