@@ -1,0 +1,13 @@
+{
+  "name": "te-claude-plugins",
+  "owner": {
+    "name": "Te"
+  },
+  "plugins": [
+    {
+      "name": "glm-peak-guard",
+      "source": "./plugins/glm-peak-guard",
+      "description": "Automatically blocks Claude usage during peak hours (06:00-10:00 UTC) when GLM models consume 3× quota. Helps preserve your GLM Coding Plan by preventing expensive usage periods."
+    }
+  ]
+}

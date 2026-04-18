@@ -1,0 +1,15 @@
+{
+  "description": "Blocks usage during peak hours (06:00-10:00 UTC) to protect your coding plan quota.",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/block-peak-hours.mjs"
+          }
+        ]
+      }
+    ]
+  }
+}

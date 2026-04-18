@@ -1,0 +1,9 @@
+{
+  "name": "glm-peak-guard",
+  "version": "1.0.0",
+  "description": "Automatically blocks usage during z.ai GLM coding plan peak hours (06:00-10:00 UTC).",
+  "author": {
+    "name": "Te"
+  },
+  "license": "MIT"
+}
